@@ -4,12 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
-      integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="css/bootstrap.rtl.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
 
@@ -73,19 +68,28 @@
       </nav>
     </header>
 
-    <section>
+    <section class="mt-5">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6"></div>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h4 class="fw-bold">لورم ایپسوم متن ساختگی</h4>
+            <h5 class="fw-bold my-4 text-primary">Bootstrap Demo</h5>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است
+            </p>
+
+            <button class="btn btn-primary">لورم ایپسوم</button>
+            <button class="btn btn-outline-dark ms-3">لورم ایپسوم</button>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="./images/img_1.png" alt="designer" />
+          </div>
         </div>
       </div>
     </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+    <script src="./js/bootstrap.bundle.js"></script>
   </body>
 </html>
