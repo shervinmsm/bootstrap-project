@@ -30,3 +30,18 @@ body {
 .bg-main {
     background-color: #1b2a4e;
 }
+
+.footer-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-header {
+    border-bottom: 3px solid ;
+    height: 35px;
+}
