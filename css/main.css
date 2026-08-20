@@ -20,3 +20,8 @@ body {
     padding: 15px;
     border-radius: 15px;
 }
+
+.card-primary {
+    background: #1b2a4e;
+    color: white !important;
+}
